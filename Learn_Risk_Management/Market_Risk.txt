@@ -1,0 +1,21 @@
+This note is based on:https://www.udemy.com/course/financial-risk-management-frm-foundational-frm-course/
+
+Market Risk: possibility of an investory losing money due to factors 
+             that affect the overall performance of financial markets.       
+    Equity(Stock) 
+        - Volatility
+        - Stock Prices Rise & Fall
+    Interest Rate RIsk 
+        - Central Bank Raises/Lowers Rate
+        - Trying to Manage Inflation
+        - Interest Rates Rise : Slow Economy Down
+                              : Current Bond Values Fall
+                              : Stock Prices may Fall
+        - Interest Rates Decrease : Speed Economy Up
+    Currency Exchange Rate Risk
+        - Gain or Loss due to currency holdings
+        - Manage over exposure to certain currency markets
+    Commodity RIsk
+        - Rising cost of commodities passed on
+        - Oil price rise, increases gas cost
+
