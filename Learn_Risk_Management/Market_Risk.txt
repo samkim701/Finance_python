@@ -1,5 +1,8 @@
 This note is based on:https://www.udemy.com/course/financial-risk-management-frm-foundational-frm-course/
 
+1. Identify Risk
+
+
 Market Risk: possibility of an investory losing money due to factors 
              that affect the overall performance of financial markets.       
     Equity(Stock) 
@@ -19,3 +22,79 @@ Market Risk: possibility of an investory losing money due to factors
         - Rising cost of commodities passed on
         - Oil price rise, increases gas cost
 
+
+Credit Risk: 
+    Bankruptcy
+	- Cannot pay debts
+	- Write them off as loss
+	- Go out of business
+    Downgrade Risk
+	- Deemed higher risk for lenders by a credit rating agency (S&P, Moody's)
+	- Results in higher interest rates charged by lenders to the firm
+    Concentration Risk
+	- Too much in one type of loan
+		(Prime and subprime)  
+
+
+Liquidity Risk:
+    Ability to meet short term obligations				
+	- Current Ratio         Current Ratio: Current Assets / Current liabilities
+	- Quick Ratio		Quick Ratio: (Current Assets - inventory) / Current liabilities	
+				    Current Assets: Assets that company can convert into cash, sell within one year.
+				    (Ex: Cash, Cash equivalents, Account receivable, Inventory, Short-term investments, prepaid expenses_
+				    Inventory: Can't be converted right away but could be in 1 year so still current assets	     
+    Known Risk, Unknown Risk
+
+
+Interaction of Risks
+	ex: Subprime Mortgage Crisis
+		Credit Risk: Banks making risky sub-prime loans
+			     Increased defaults
+		Liquidity Risk: Cash Flow goes negative
+				Banks struggle to pay bills
+		Market Risk: Bank credit ratings downgraded
+			     Stock price collapses
+
+Other Risks to consider
+	Operational
+		- Normal business operations
+		- Safety level of a factory
+	Strategic
+		- Business Model
+		- Overall Strategy
+		- Reputation
+
+How can we respond to the financial risks
+	Avoid the risk entirely
+	Accept the risk
+	Decrease Exposure to the risk
+	Transfer risk
+
+
+2. Analyze risk
+
+
+Expected Loss
+	Relatively simple calculation
+	Can help you to pinpoint your focus
+	FRM for a loan company
+
+	- Calculate Expected Loss
+		Assess Risk Factors For companies lending Operation
+			Historical Data, Industry Benchmarks
+	  EAD (Exposure at default): The exposure to risk(Currency Amount)
+	  PD (Probability of Default): Chance the event occurs(%)
+	  LGD (Loss Given the Default): Amount of loss (% 0 - 100%)
+	  EL (Expected Loss) = EAD * LGD * PD
+
+Unexpected Loss
+	 Considered a variation of the expected Loss(Standard deviation of EL)
+	 UL = EAD * square_root[(PD^2 * Variance of loss given default) + (LGD^2 * Variance of probability of default)] 
+								Variance of loss given default = (LGD)(1 - LGD) / 4
+								Variance of probability of default = (PD)(1 - PD)
+
+VaR(Value at Risk)
+     Many risk measures look at Volatility
+     Advantages: VaR is applicable to all types of assets- bonds, shares, derivatives, currencies
+     Disadvantages: The larger the number of assets, the more difficult it is to calculate VaR.
+                    Doesn't tell beyond the confidence level(Loss could be much larger)
